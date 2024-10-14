@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Candies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="candies.xsd">
+
+    <Candy Id="C1" Name="Choco Delight" Energy="250.5" Production="Sweet Factory">
+        <Sweet>Chocolate</Sweet>
+        <Ingredients>
+            <Water>10</Water>
+            <Sugar>5000</Sugar>
+            <Fructose>3000</Fructose>
+            <Vanillin>5</Vanillin>
+            <ChocolateType>Dark</ChocolateType>
+        </Ingredients>
+        <Value>
+            <Proteins>5.0</Proteins>
+            <Fats>15.0</Fats>
+            <Carbohydrates>45.0</Carbohydrates>
+        </Value>
+    </Candy>
+
+    <Candy Id="C2" Name="Caramel Twist" Energy="150.0">
+        <Sweet>Caramel</Sweet>
+        <Ingredients>
+            <Water>20</Water>
+            <Sugar>7000</Sugar>
+            <Fructose>2000</Fructose>
+            <Vanillin>3</Vanillin>
+        </Ingredients>
+        <Value>
+            <Proteins>0.5</Proteins>
+            <Fats>0.1</Fats>
+            <Carbohydrates>40.0</Carbohydrates>
+        </Value>
+    </Candy>
+
+    <Candy Id="C3" Name="Lollipop Fun" Energy="180.0">
+        <Sweet>Lollypop</Sweet>
+        <Ingredients>
+            <Water>15</Water>
+            <Sugar>8000</Sugar>
+            <Fructose>1000</Fructose>
+        </Ingredients>
+        <Value>
+            <Proteins>0.0</Proteins>
+            <Fats>0.0</Fats>
+            <Carbohydrates>50.0</Carbohydrates>
+        </Value>
+    </Candy>
+
+    <Candy Id="C4" Name="Choco Bar" Energy="300.0" Production="Choco World">
+        <Sweet>Chocolate</Sweet>
+        <Ingredients>
+            <Water>12</Water>
+            <Sugar>6000</Sugar>
+            <Fructose>2500</Fructose>
+            <Vanillin>4</Vanillin>
+            <ChocolateType>Milk</ChocolateType>
+        </Ingredients>
+        <Value>
+            <Proteins>7.0</Proteins>
+            <Fats>20.0</Fats>
+            <Carbohydrates>55.0</Carbohydrates>
+        </Value>
+    </Candy>
+
+    <Candy Id="C5" Name="Popsicle Blast" Energy="100.0" Production="Frozen Treats">
+        <Sweet>Popsicle</Sweet>
+        <Ingredients>
+            <Water>25</Water>
+            <Sugar>5000</Sugar>
+            <Fructose>1500</Fructose>
+        </Ingredients>
+        <Value>
+            <Proteins>0.2</Proteins>
+            <Fats>0.5</Fats>
+            <Carbohydrates>25.0</Carbohydrates>
+        </Value>
+    </Candy>
+
+    <Candy Id="C6" Name="Caramel Dream" Energy="200.0" Production="Dream Sweets">
+        <Sweet>Caramel</Sweet>
+        <Ingredients>
+            <Water>18</Water>
+            <Sugar>6000</Sugar>
+            <Fructose>3000</Fructose>
+        </Ingredients>
+        <Value>
+            <Proteins>1.0</Proteins>
+            <Fats>1.0</Fats>
+            <Carbohydrates>60.0</Carbohydrates>
+        </Value>
+    </Candy>
+
+    <Candy Id="C7" Name="Dark Choco" Energy="320.0">
+        <Sweet>Chocolate</Sweet>
+        <Ingredients>
+            <Water>10</Water>
+            <Sugar>4000</Sugar>
+            <Fructose>3500</Fructose>
+            <Vanillin>2</Vanillin>
+            <ChocolateType>Dark</ChocolateType>
+        </Ingredients>
+        <Value>
+            <Proteins>8.0</Proteins>
+            <Fats>22.0</Fats>
+            <Carbohydrates>65.0</Carbohydrates>
+        </Value>
+    </Candy>
+
+    <Candy Id="C8" Name="Lollipop Mania" Energy="120.0" Production="Candy Craze">
+        <Sweet>Lollypop</Sweet>
+        <Ingredients>
+            <Water>20</Water>
+            <Sugar>9000</Sugar>
+            <Fructose>1500</Fructose>
+        </Ingredients>
+        <Value>
+            <Proteins>0.1</Proteins>
+            <Fats>0.1</Fats>
+            <Carbohydrates>30.0</Carbohydrates>
+        </Value>
+    </Candy>
+
+    <Candy Id="C9" Name="Milk Chocolate Delight" Energy="270.0">
+        <Sweet>Chocolate</Sweet>
+        <Ingredients>
+            <Water>14</Water>
+            <Sugar>6000</Sugar>
+            <Fructose>2800</Fructose>
+            <Vanillin>3</Vanillin>
+            <ChocolateType>Milk</ChocolateType>
+        </Ingredients>
+        <Value>
+            <Proteins>6.0</Proteins>
+            <Fats>18.0</Fats>
+            <Carbohydrates>48.0</Carbohydrates>
+        </Value>
+    </Candy>
+
+    <Candy Id="C10" Name="Popsicle Delight" Energy="90.0">
+        <Sweet>Popsicle</Sweet>
+        <Ingredients>
+            <Water>30</Water>
+            <Sugar>4000</Sugar>
+            <Fructose>1000</Fructose>
+        </Ingredients>
+        <Value>
+            <Proteins>0.3</Proteins>
+            <Fats>0.4</Fats>
+            <Carbohydrates>20.0</Carbohydrates>
+        </Value>
+    </Candy>
+	
+	    <Candy Id="C11" Name="Fruit Caramel" Energy="180.0" Production="Nature Sweets">
+        <Sweet>Caramel</Sweet>
+        <Ingredients>
+            <Water>20</Water>
+            <Sugar>5500</Sugar>
+            <Fructose>2000</Fructose>
+            <Vanillin>2</Vanillin>
+        </Ingredients>
+        <Value>
+            <Proteins>0.5</Proteins>
+            <Fats>0.3</Fats>
+            <Carbohydrates>35.0</Carbohydrates>
+        </Value>
+    </Candy>
+
+    <Candy Id="C12" Name="Double Chocolate" Energy="320.0">
+        <Sweet>Chocolate</Sweet>
+        <Ingredients>
+            <Water>12</Water>
+            <Sugar>4500</Sugar>
+            <Fructose>3000</Fructose>
+            <Vanillin>5</Vanillin>
+            <ChocolateType>Milk</ChocolateType>
+        </Ingredients>
+        <Value>
+            <Proteins>6.5</Proteins>
+            <Fats>22.0</Fats>
+            <Carbohydrates>50.0</Carbohydrates>
+        </Value>
+    </Candy>
+
+    <Candy Id="C13" Name="Vanilla Lollypop" Energy="100.0" Production="Fun Treats">
+        <Sweet>Lollypop</Sweet>
+        <Ingredients>
+            <Water>18</Water>
+            <Sugar>7000</Sugar>
+            <Fructose>1000</Fructose>
+            <Vanillin>3</Vanillin>
+        </Ingredients>
+        <Value>
+            <Proteins>0.1</Proteins>
+            <Fats>0.2</Fats>
+            <Carbohydrates>30.0</Carbohydrates>
+        </Value>
+    </Candy>
+
+    <Candy Id="C14" Name="Caramel Chocolate Fusion" Energy="260.0">
+        <Sweet>Chocolate</Sweet>
+        <Ingredients>
+            <Water>15</Water>
+            <Sugar>6000</Sugar>
+            <Fructose>2500</Fructose>
+            <Vanillin>4</Vanillin>
+            <ChocolateType>Dark</ChocolateType>
+        </Ingredients>
+        <Value>
+            <Proteins>5.0</Proteins>
+            <Fats>18.0</Fats>
+            <Carbohydrates>40.0</Carbohydrates>
+        </Value>
+    </Candy>
+
+    <Candy Id="C15" Name="Frozen Popsicle" Energy="90.0">
+        <Sweet>Popsicle</Sweet>
+        <Ingredients>
+            <Water>35</Water>
+            <Sugar>5000</Sugar>
+            <Fructose>1000</Fructose>
+        </Ingredients>
+        <Value>
+            <Proteins>0.2</Proteins>
+            <Fats>0.3</Fats>
+            <Carbohydrates>20.0</Carbohydrates>
+        </Value>
+    </Candy>
+
+    <Candy Id="C16" Name="Nutty Choco Bar" Energy="280.0" Production="Nut Sweets">
+        <Sweet>Chocolate</Sweet>
+        <Ingredients>
+            <Water>10</Water>
+            <Sugar>5500</Sugar>
+            <Fructose>2700</Fructose>
+            <Vanillin>2</Vanillin>
+            <ChocolateType>Milk</ChocolateType>
+        </Ingredients>
+        <Value>
+            <Proteins>8.0</Proteins>
+            <Fats>25.0</Fats>
+            <Carbohydrates>55.0</Carbohydrates>
+        </Value>
+    </Candy>
+
+</Candies>
