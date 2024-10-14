@@ -31,6 +31,61 @@ public class Candy {
         this.carbohydrates = builder.carbohydrates;
     }
 
+
+    // Методы доступа (геттеры)
+
+    public String getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public float getEnergy() {
+        return energy;
+    }
+
+    public String getProduction() {
+        return production;
+    }
+
+    public String getSweetType() {
+        return sweetType;
+    }
+
+    public int getWater() {
+        return water;
+    }
+
+    public int getSugar() {
+        return sugar;
+    }
+
+    public int getFructose() {
+        return fructose;
+    }
+
+    public int getVanillin() {
+        return vanillin;
+    }
+
+    public String getChocolateType() {
+        return chocolateType;
+    }
+
+    public float getProteins() {
+        return proteins;
+    }
+
+    public float getFats() {
+        return fats;
+    }
+
+    public float getCarbohydrates() {
+        return carbohydrates;
+    }
+
     public static class CandyBuilder {
         private String id;
         private String name;

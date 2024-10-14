@@ -13,8 +13,6 @@ public class DOMCandyParserTest {
         DOMCandyParser parser = new DOMCandyParser();
         List<Candy> candies = parser.parse("path/to/valid_candies.xml"); // Укажите путь к вашему XML файлу
 
-
-        //TODO: Добавить геттеры
         assertNotNull(candies);
         assertFalse(candies.isEmpty());
         assertEquals(10, candies.size()); // Проверка на количество конфет

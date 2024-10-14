@@ -22,8 +22,6 @@ public class CandyTest {
                 .withCarbohydrates(30.0f)
                 .build();
 
-
-        // TODO:   Добавить геттеры
         assertEquals("C1", candy.getId());
         assertEquals("Chocolate", candy.getName());
         assertEquals(250.0f, candy.getEnergy(), 0.01);
