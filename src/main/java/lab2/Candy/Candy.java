@@ -38,9 +38,6 @@ public class Candy {
         logger.info("Конфета создана с id: {} и именем: {}", this.id, this.name);
     }
 
-
-    // Методы доступа (геттеры)
-
     public String getId() {
         return id;
     }

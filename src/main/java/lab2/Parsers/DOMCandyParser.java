@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DOMCandyParser {
-    // Инициализация логгера
+
     private static final Logger logger = LogManager.getLogger(DOMCandyParser.class);
 
     public List<Candy> parse(String xmlFilePath) {
