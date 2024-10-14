@@ -11,19 +11,19 @@ public class DOMCandyParserTest {
     @Test
     public void testParseValidXML() {
         DOMCandyParser parser = new DOMCandyParser();
-        List<Candy> candies = parser.parse("path/to/valid_candies.xml"); // Укажите путь к вашему XML файлу
+        List<Candy> candies = parser.parse("C:\\Users\\a.sakovich\\Desktop\\study\\LAB2_MAIS\\src\\main\\resources\\candies.xml"); // Укажите путь к вашему XML файлу
 
         assertNotNull(candies);
         assertFalse(candies.isEmpty());
-        assertEquals(10, candies.size()); // Проверка на количество конфет
+        assertEquals(16, candies.size()); // Проверка на количество конфет
         assertEquals("C1", candies.get(0).getId()); // Проверка данных первой конфеты
-        assertEquals("Chocolate", candies.get(0).getName());
+        assertEquals("Choco Delight", candies.get(0).getName());
     }
 
     @Test
     public void testParseInvalidXML() {
         DOMCandyParser parser = new DOMCandyParser();
-        List<Candy> candies = parser.parse("path/to/invalid_candies.xml"); // Укажите путь к невалидному XML файлу
+        List<Candy> candies = parser.parse("C:\\Users\\a.sakovich\\Desktop\\study\\LAB2_MAIS\\src\\main\\resources\\test.xml"); // Укажите путь к невалидному XML файлу
 
         assertNotNull(candies);
         assertTrue(candies.isEmpty()); // Проверка, что возвращается пустой список

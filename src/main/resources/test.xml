@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Candies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="candies.xsd">
+
+    <Candy Id="C1" Name="Choco Delight" Energy="250.5" Production="Sweet Factory">
+        <Sweet>Chocolate</Sweet>
+        <Ingredients>
+            <Water>10</Water>
+            <Sugar>5000</Sugar>
+            <Fructose>3000</Fructose>
+            <Vanillin>5</Vanillin>
+            <ChocolateType>Dark</ChocolateType>
+        </Ingredients>
+        <Value>
+            <Proteins>5.0</Proteins>
+            <Fats>15.0</Fats>
+            <Carbohydrates>45.0</Carbohydrates>
+        </Value>
+    </Candy>
+
+    <Candy Id="C2" Name="Caramel Twist" Energy="150.0">
+        <Sweet>Caramel</Sweet>
+        <Ingredients>
+            <Water>20</Water>
+            <Sugar>7000</Sugar>
+            <Fructose>2000</Fructose>
+            <Vanillin>3</Vanillin>
+        </Ingredients>
+        <Value>
+            <Proteins>0.5</Proteins>
+            <Fats>0.1</Fats>
+            <Carbohydrates>40.0</Carbohydrates>
+        </Value>
+    </Candy>
+
+    <Candy Id="C3" Name="Lollipop Fun" Energy="180.0">
+        <Sweet>Lollypop</Sweet>
+        <Ingredients>
+            <Water>15</Water>
+            <Sugar>8000</Sugar>
+            <Fructose>1000</Fructose>
+        </Ingredients>
+        <Value>
+            <Proteins>0.0</Proteins>
+            <Fats>0.0</Fats>
+            <Carbohydrates>50.0</Carbohydrates>
+        </Value>
+    </Candy>
+</Candies>
