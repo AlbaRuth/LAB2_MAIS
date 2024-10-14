@@ -7,6 +7,8 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import org.w3c.dom.*;
 import javax.xml.parsers.DocumentBuilder;
@@ -16,8 +18,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DOMCandyParser {
+    // Инициализация логгера
+    private static final Logger logger = LogManager.getLogger(DOMCandyParser.class);
+
     public List<Candy> parse(String xmlFilePath) {
         List<Candy> candies = new ArrayList<>();
+        logger.info("Начало парсинга файла: {}", xmlFilePath);
         try {
             File inputFile = new File(xmlFilePath);
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
@@ -26,6 +32,7 @@ public class DOMCandyParser {
             doc.getDocumentElement().normalize();
 
             NodeList candyList = doc.getElementsByTagName("Candy");
+            logger.debug("Найдено {} элементов Candy", candyList.getLength());
 
             for (int i = 0; i < candyList.getLength(); i++) {
                 Node node = candyList.item(i);
@@ -65,8 +72,9 @@ public class DOMCandyParser {
                     candies.add(builder.build());
                 }
             }
+            logger.info("Парсинг завершен, найдено {} конфет", candies.size());
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error("Ошибка при парсинге XML файла: {}", xmlFilePath, e);
         }
         return candies;
     }

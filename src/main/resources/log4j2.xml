@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="filename">./src/main/resources/logs</Property>
+    </Properties>
+    <Appenders>
+        <RollingFile name="file" fileName="${filename}/log_last.log" filePattern="${filename}/log_%d{yyyy_MM_dd_HH_mm_ss}.log">
+            <PatternLayout>
+                <pattern>%d{HH:mm:ss:sss} [%t] %-5level %logger{36} - %msg%n</pattern>
+            </PatternLayout>
+            <SizeBasedTriggeringPolicy size="4 KB" />
+        </RollingFile>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="lab_2_Sakovich" level="info" additivity="false">
+        </Logger>
+        <Root level="info">
+            <AppenderRef ref="file"/>
+            <!-- <AppenderRef ref="Console" /> -->
+        </Root>
+    </Loggers>
+</Configuration>

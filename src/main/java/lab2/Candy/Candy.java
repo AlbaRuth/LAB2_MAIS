@@ -1,6 +1,11 @@
 package lab2.Candy;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Candy {
+
+    private static final Logger logger = LogManager.getLogger(Candy.class);
+
     private final String id;
     private final String name;
     private final float energy;
@@ -29,6 +34,8 @@ public class Candy {
         this.proteins = builder.proteins;
         this.fats = builder.fats;
         this.carbohydrates = builder.carbohydrates;
+
+        logger.info("Конфета создана с id: {} и именем: {}", this.id, this.name);
     }
 
 
@@ -104,6 +111,8 @@ public class Candy {
         public CandyBuilder(String id, String name) {
             this.id = id;
             this.name = name;
+
+            logger.debug("Создание CandyBuilder для конфеты с id: {}", id);
         }
 
         public CandyBuilder withEnergy(float energy) {
@@ -162,6 +171,7 @@ public class Candy {
         }
 
         public Candy build() {
+            logger.debug("Сборка объекта Candy с id: {}", this.id);
             return new Candy(this);
         }
     }

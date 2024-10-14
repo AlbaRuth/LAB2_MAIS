@@ -1,0 +1,33 @@
+20:30:20:020 [main] INFO  lab2.Parsers.DOMCandyParser - Начало парсинга файла: C:\Users\a.sakovich\Desktop\study\LAB2_MAIS\src\main\resources\candies.xml
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C1 и именем: Choco Delight
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C2 и именем: Caramel Twist
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C3 и именем: Lollipop Fun
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C4 и именем: Choco Bar
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C5 и именем: Popsicle Blast
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C6 и именем: Caramel Dream
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C7 и именем: Dark Choco
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C8 и именем: Lollipop Mania
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C9 и именем: Milk Chocolate Delight
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C10 и именем: Popsicle Delight
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C11 и именем: Fruit Caramel
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C12 и именем: Double Chocolate
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C13 и именем: Vanilla Lollypop
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C14 и именем: Caramel Chocolate Fusion
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C15 и именем: Frozen Popsicle
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C16 и именем: Nutty Choco Bar
+20:30:20:020 [main] INFO  lab2.Parsers.DOMCandyParser - Парсинг завершен, найдено 16 конфет
+20:30:20:020 [main] INFO  lab2.Parsers.SAXCandyParser - Начало парсинга файла: C:\Users\a.sakovich\Desktop\study\LAB2_MAIS\src\main\resources\candies.xml
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C1 и именем: Choco Delight
+20:30:20:020 [main] INFO  lab2.Parsers.SAXCandyParser - Конфета добавлена: lab2.Candy.Candy$CandyBuilder@5b247367
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C2 и именем: Caramel Twist
+20:30:20:020 [main] INFO  lab2.Parsers.SAXCandyParser - Конфета добавлена: lab2.Candy.Candy$CandyBuilder@268f106e
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C3 и именем: Lollipop Fun
+20:30:20:020 [main] INFO  lab2.Parsers.SAXCandyParser - Конфета добавлена: lab2.Candy.Candy$CandyBuilder@6e9a5ed8
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C4 и именем: Choco Bar
+20:30:20:020 [main] INFO  lab2.Parsers.SAXCandyParser - Конфета добавлена: lab2.Candy.Candy$CandyBuilder@7e057f43
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C5 и именем: Popsicle Blast
+20:30:20:020 [main] INFO  lab2.Parsers.SAXCandyParser - Конфета добавлена: lab2.Candy.Candy$CandyBuilder@6c284af
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C6 и именем: Caramel Dream
+20:30:20:020 [main] INFO  lab2.Parsers.SAXCandyParser - Конфета добавлена: lab2.Candy.Candy$CandyBuilder@5890e879
+20:30:20:020 [main] INFO  lab2.Candy.Candy - Конфета создана с id: C7 и именем: Dark Choco
+20:30:20:020 [main] INFO  lab2.Parsers.SAXCandyParser - Конфета добавлена: lab2.Candy.Candy$CandyBuilder@6440112d
