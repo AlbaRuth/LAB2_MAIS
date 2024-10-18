@@ -12,15 +12,6 @@ import javax.xml.parsers.SAXParserFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
-import org.xml.sax.helpers.DefaultHandler;
-
-import javax.xml.parsers.SAXParser;
-import javax.xml.parsers.SAXParserFactory;
-import java.util.ArrayList;
-import java.util.List;
-
 public class SAXCandyParser extends DefaultHandler {
 
     private static final Logger logger = LogManager.getLogger(SAXCandyParser.class);

@@ -3,6 +3,7 @@ package lab2;
 import lab2.Candy.Candy;
 import lab2.Parsers.DOMCandyParser;
 import lab2.Parsers.SAXCandyParser;
+import lab2.Parsers.STAXCandyParser;
 
 import java.util.List;
 
@@ -21,5 +22,11 @@ public class Main {
         List<Candy> candiesFromSAX = saxParser.parse(xmlFilePath);
         System.out.println("Candies parsed with SAX:");
         candiesFromSAX.forEach(System.out::println);
+
+        // STAX парсинг
+        STAXCandyParser staxParser = new STAXCandyParser();
+        List<Candy> candiesFromSTAX = staxParser.parse(xmlFilePath);
+        System.out.println("Candies parsed with STAX:");
+        candiesFromSTAX.forEach(System.out::println);
     }
 }
